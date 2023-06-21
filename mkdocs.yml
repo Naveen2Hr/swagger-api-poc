@@ -1,7 +1,7 @@
-site_name: ${{values.component_id | dump}}
-site_description: ${{values.description | dump}}
+site_name: swagger-api-poc
+site_description: Swagger API Project
 
-repo_url: https://github.com/${{ values.destination.owner }}/${{ values.component_id }}
+repo_url: https://github.com/Naveen2Hr/swagger-api-poc
 
 
 nav:
