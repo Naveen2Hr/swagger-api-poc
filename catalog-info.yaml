@@ -11,14 +11,14 @@ metadata:
     - springboot
     - microservice
     - mvc
-    
+
 spec:
   type: service
   lifecycle: experimental
   owner: Naveen2Hr
   providesApis:
     - UserManagement
-  
+
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
