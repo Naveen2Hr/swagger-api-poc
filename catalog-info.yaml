@@ -10,7 +10,7 @@ metadata:
     - url: https://github.com/Naveen2Hr/swagger-api-poc
       title: GitHub Repo
       icon: github
-    - url: https://github.com/Naveen2Hr/swagger-api-poc/blob/main/user-oas.yaml
+    - url: https://github.com/Naveen2Hr/swagger-api-poc/blob/main/user.oas.yaml
       title: API Spec
       icon: code
 spec:
@@ -18,4 +18,4 @@ spec:
   lifecycle: experimental
   owner: team-c
   definition:
-    $text: ./petstore.oas.yaml
+    $text: ./user.oas.yaml
