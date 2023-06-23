@@ -1,6 +1,6 @@
 openapi: 3.0.2
 servers:
-  - url: /v3
+  - url: /
 info:
   description: |-
    The Sample User Swagger Integration
