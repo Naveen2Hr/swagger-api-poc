@@ -4,7 +4,8 @@ metadata:
   name: user
   description: The User API
   tags:
-    - SpringBoot
+    - java
+    - spring
     - rest
   links:
     - url: https://github.com/Naveen2Hr/swagger-api-poc
