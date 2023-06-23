@@ -1,16 +1,16 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: petstore
-  description: The petstore API
+  name: user
+  description: The User API
   tags:
     - store
     - rest
   links:
-    - url: https://github.com/swagger-api/swagger-petstore
+    - url: https://github.com/Naveen2Hr/swagger-api-poc
       title: GitHub Repo
       icon: github
-    - url: https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml
+    - url: hhttps://github.com/Naveen2Hr/swagger-api-poc/edit/main/userapi.yaml
       title: API Spec
       icon: code
 spec:
