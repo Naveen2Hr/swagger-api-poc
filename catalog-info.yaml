@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 metadata:
   name: user
   description: The User API
   tags:
-    - store
+    - SpringBoot
     - rest
   links:
     - url: https://github.com/Naveen2Hr/swagger-api-poc
@@ -14,8 +14,8 @@ metadata:
       title: API Spec
       icon: code
 spec:
-  type: openapi
+  type: service
   lifecycle: experimental
   owner: team-c
-  definition:
-    $text: ./user.oas.yaml
+  providesApis:
+    - user
