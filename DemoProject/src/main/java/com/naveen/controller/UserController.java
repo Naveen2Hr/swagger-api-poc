@@ -16,6 +16,7 @@ import com.naveen.service.UserServiceInterface;
 
 @RestController
 @RequestMapping("users")
+@CrossOrigin("*")
 public class UserController {
 
 	@Autowired
